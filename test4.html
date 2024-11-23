@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrumboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+    <section class="hero is-fullheight is-primary has-background" id="home">
+        <!-- Background Image -->
+        <div class="hero-background">
+            <figure class="image is-fullwidth is-fullheight">
+                <img src="78314830_p0.jpg" alt="Background">
+            </figure>
+        </div>
+
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item button has-background-white is-inverted" href="https://bulma.io">
+                    <!-- Logo (SVG) -->
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item has-text-white" href="#home">
+                        <span class="icon-text">
+                            <span class="icon">
+                                <i class="fas fa-home"></i>
+                            </span>
+                            <span>Home</span>
+                        </span>
+                    </a>
+                    <a class="navbar-item has-text-white">For students</a>
+                    <a class="navbar-item has-text-white"><span class="text-is-danger">For coaches</span></a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link has-text-white">More</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">About</a>
+                            <a class="navbar-item is-selected">Jobs</a>
+                            <a class="navbar-item">Contact</a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item">Report an issue</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-link"><strong>Sign up</strong></a>
+                            <a class="button is-dark is-light">Log in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section id="student">
+            <div class="image is-4by3 is-fullwidth">
+                <img src="82015319_p0.jpg" alt="Background">
+                <br><br><br><br><br><br>
+                <!-- Added the Student heading here -->
+                <div class="title control">
+                    <h3 class="title is-4 has-text-left has-text-white">Students: stell je dagdoelen op</h3>
+                        </div>
+                <br><br>
+                <br>
+                <div class="columns mt-6 is-centered is-vcentered is-multiline">
+                    <div class="column is-one-quarter">
+                        <div class="field has-addons has-text-centered">
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-align-left"></i></span>
+                                    <span>Left</span>
+                                </button>
+                            </p>
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-align-center"></i></span>
+                                    <span>Center</span>
+                                </button>
+                            </p>
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-align-right"></i></span>
+                                    <span>Right</span>
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="field has-addons has-text-centered">
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-bold"></i></span>
+                                    <span>Bold</span>
+                                </button>
+                            </p>
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-italic"></i></span>
+                                    <span>Italic</span>
+                                </button>
+                            </p>
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-underline"></i></span>
+                                    <span>Underline</span>
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="control">
+                            <label class="label has-text-white">Goal/Goals for the day</label>
+                            <textarea class="textarea is-hovered is-link" placeholder="Naam:...
+Doel:...
+Tijd:...
+Extra:...
+                            "></textarea>
+                        </div>
+                    </div>
+
+                    <div class="column is-full">
+                        <div class="buttons is-centered">
+                            <button class="button is-success">Save changes</button>
+                            <button class="button is-info">Save and continue</button>
+                            <button class="button is-danger">Cancel</button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="columns is-centered is-vcentered is-multiline">
+                    <div class="column is-one-quarter">
+                        <div class="field has-addons has-text-centered">
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-align-left"></i></span>
+                                    <span>Left</span>
+                                </button>
+                            </p>
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-align-center"></i></span>
+                                    <span>Center</span>
+                                </button>
+                            </p>
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-align-right"></i></span>
+                                    <span>Right</span>
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="field has-addons has-text-centered">
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-bold"></i></span>
+                                    <span>Bold</span>
+                                </button>
+                            </p>
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-italic"></i></span>
+                                    <span>Italic</span>
+                                </button>
+                            </p>
+                            <p class="control">
+                                <button class="button is-link">
+                                    <span class="icon is-small"><i class="fas fa-underline"></i></span>
+                                    <span>Underline</span>
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="control">
+                            <label class="label has-text-white">Feedback for coach/coaches</label>
+                            <textarea class="textarea is-hovered is-link" placeholder="Insert feedback here"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="column is-full">
+                        <div class="buttons is-centered">
+                            <button class="button is-success">Save changes</button>
+                            <button class="button is-info">Save and continue</button>
+                            <button class="button is-danger">Cancel</button>
+                        </div>
+                    </div>
+
+                    <div class="field has-text-centered">
+                        <div class="control">
+                            <label class="checkbox">
+                                <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+
+        <section id="coach">
+            <div class="image is-4by3 is-fullwidth">
+                <img src="106967861_p0.jpg" alt="Background">
+                <br><br><br><br>
+                <div class="title control">
+                <h3 class="title is-4 has-text-left has-text-white">Coach: Studenten hun Dagdoelen</h3>
+                    </div>
+                <div class="card">
+    <div class="card-conten t">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            <img
+              src="GF8PETUasAAL3J2.webp"
+              alt="Placeholder image"
+            />
+          </figure>
+        </div>
+        <div class="media-content">
+          <p class="title is-4 has-text-white">Kikuri Hiroi</p>
+          <p><strong>Doel:</strong> Bulma</p>
+          <p><strong>Tijd:</strong> 6 uur</p>
+          <p class="subtitle is-6">@kikurihiroi</p>
+        </div>
+      </div>
+  
+      <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+        iaculis mauris. <a>@bulma</a>. <a href="#">#bulma</a>
+        <a href="#">#responsive</a>
+        <br />
+        <time datetime="2016-1-1">16:09 PM - 18 Nov 2024</time>
+        <div class="buttons">
+            <button class="button is-success">Goedkeuren</button>
+            <button class="button is-danger">Afkeuren</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="card">
+    <div class="card-conten t">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            <img
+              src="Screenshot 2024-11-19 150025.png"
+              alt="Placeholder image"
+            />
+          </figure>
+        </div>
+        <div class="media-content">
+          <p class="title is-4 has-text-white">Snezhinka</p>
+          <p><strong>Doel:</strong>Bulma</p>
+          <p><strong>Tijd:</strong> 6 uur</p>
+          <p class="subtitle is-6">@snezhinka</p>
+        </div>
+      </div>
+  
+      <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+        iaculis mauris. <a>@bulma</a>. <a href="#">#bulma</a>
+        <a href="#">#responsive</a>
+        <br />
+        <time datetime="2016-1-1">16:38 PM - 18 Nov 2024</time>
+        <div class="buttons">
+            <button class="button is-success">Goedkeuren</button>
+            <button class="button is-danger">Afkeuren</button>
+          </div>
+      </div>
+    </div>
+  </div>'
+  
+  <article class="message control">
+    <div class="message-header">
+      <p>Feedback van: Kikuri Hiroi</p>
+      <button class="delete" aria-label="delete"></button>
+    </div>
+    <div class="message-body">
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec
+      nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus
+      diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac
+      <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+      sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+      neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+    </div>
+  </article>
+
+  <article class="message control">
+    <div class="message-header">
+      <p>Feedback van: Snezhinka</p>
+      <button class="delete" aria-label="delete"></button>
+    </div>
+    <div class="message-body">
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec
+      nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus
+      diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac
+      <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+      sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+      neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+    </div>
+  </article>
+            </div>
+            </section>
+        <footer class="footer">
+            <button class="button is-large">
+                <span class="icon is-medium">
+                    <i class="fab fa-github"></i>
+                </span>
+                <span>GitHub</span>
+            </button>
+
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Site</strong> by Jay<br>
+                    The source code is licensed MITTY.
+                    <img src="" alt="Mitty" class="">
+                </p>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
